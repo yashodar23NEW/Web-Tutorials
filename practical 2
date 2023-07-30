@@ -1,0 +1,187 @@
+01.  <html><head>
+<title> Table1</title>
+    <style>
+    
+        table,th,td{
+            
+            border:1px solid black;
+        }
+    
+    </style>
+    
+    </head>
+<body>
+    <table>
+    <tr>
+    <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+    
+    </tr>
+    <tr>
+    <td>Amal</td>
+        <td>Fernando</td>
+        <td>39</td>
+    
+    </tr>
+    <tr>
+    <td>Sahan</td>
+        <td>Bandara</td>
+        <td>33</td>
+    
+    
+    </tr>
+    <tr>
+    <td>Kamal</td>
+        <td>Perera</td>
+        <td>36</td>
+    
+    
+    </tr>
+    <tr>
+    <td>Nimal</td>
+        <td>Rathnayake</td>
+        <td>36</td>
+    
+    
+        </tr></table></body></html>
+
+
+02. <html>
+<head>
+    <title>Table2</title>
+    <style>
+    
+        table,tr,th{
+            
+            border:1px solid black
+        }
+    
+    </style>
+    </head>
+<body>
+    <table>
+    <tr> 
+        <th >America</th>
+        <th>Canada</th>
+        <th >Alasca</th>
+        </tr>
+        <tr>
+        <th colspan="2">Mexico</th>
+            <th rowspan="2">Jamaica</th>
+        </tr>
+        <tr>
+        <th>California</th>
+            <th>Brazil</th>
+        
+        
+        </tr>
+    
+    
+    
+    </table>
+    
+    
+    
+    </body></html>
+  
+3.    <html>
+<head>
+    <title>Table3</title>
+    <style>
+        table,th,td{
+            border:1px solid black
+        }
+        .tb{
+           text-align: center; 
+            background-color: yellow;
+            
+        }
+        .cp
+        {
+         color: black;
+            font-size: 25px;
+            font-weight: bold;
+            padding-bottom: 15px;
+        }
+        
+    
+    
+    </style>
+    </head>
+<body>
+    
+    <table class="tb" >
+        <caption class="cp"><u>Timetable</u></caption>
+    <tr bgcolor="white" >
+    <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+        <tr>
+        <td rowspan="2">Maths</td>
+            <td>Geography</td>
+            <td rowspan="3">Literature</td>
+            <td>Maths</td>
+            <td>Drama</td>
+        
+        </tr>
+        <tr>
+        <td>IT</td>
+            <td>English</td>
+            <td>Dancing</td>
+        
+        
+        </tr>
+        <tr>
+        <td>Sinhala</td>
+            <td rowspan="2">Health</td>
+            <td rowspan="2">Music</td>
+            <td rowspan="2">Religion</td>
+        
+        
+        </tr>
+        <tr>
+        <td>English</td>
+            <td>IT Lab</td>
+        </tr>
+        <tr bgcolor="blue">
+            <td colspan="5" style="color:red"><center>Interval</center></td>
+        </tr>
+        <tr>
+        <td>Religion</td>
+            <td>Maths</td>
+            <td>Health</td>
+            <td>Tamil</td>
+            <td>IT</td>
+        
+        </tr>
+        <tr>
+        <td rowspan="2">History</td>
+            <td rowspan="3">Drama</td>
+            <td rowspan="2">Library</td>
+            <td>IT Lab</td>
+            <td>Tamil</td>
+        
+        
+        </tr>
+        <tr>
+        <td>Sinhala</td>
+            <td rowspan="2">Art</td>
+        </tr>
+        <tr>
+        <td>Maths</td>
+            <td>Maths</td>
+            <td>Science</td>
+        </tr>
+        <tr bgcolor="lightgreen">
+            <td colspan="5" ><center>For more details:<a  style="color:red "href="www.schoolnet.com/">www.school.com/</a></center></td>
+        </tr>
+        
+    
+    
+    </table>
+    </body>
+</html>
