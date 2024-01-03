@@ -1,0 +1,119 @@
+<html>
+<head>
+    <title>Register form</title>
+    <style>
+        .regbox {
+            text-align: center;
+            width: 300px;
+            margin: auto;
+            margin-top: 50px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .img {
+            width: 100px;
+            height: 100px;
+            /* Add your image source here */
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        input[type="text"], input[type="password"], select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Center the REGISTER button */
+        td.register-cell {
+            text-align: center;
+        }
+
+        /* Align First Name and Last Name inputs */
+        td.name-cell {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="regbox">
+        <img src="" class="img">
+        <form name="register" method="post" action="n1.php">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" name="ikey" placeholder="Your Invite Key">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="name-cell">
+                        <input type="text" name="fnm" placeholder="First Name">
+                    </td>
+                    <td class="name-cell">
+                        <input type="text" name="lnm" placeholder="Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" name="em" placeholder="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="password" name="pw" placeholder="New Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="month">
+                            <option value="j">Month:</option>
+                            <option value="j">January</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="day">
+                            <option value="j">Day:</option>
+                            <option value="j">01</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <select name="year">
+                            <option value="j">Year:</option>
+                            <option value="j">2000</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="register-cell">
+                        <input type="submit" name="reg" value="REGISTER">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
